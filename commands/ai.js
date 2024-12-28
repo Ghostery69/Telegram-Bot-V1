@@ -1,11 +1,11 @@
 const axios = require('axios');
 
 module.exports = (bot) => {
-  bot.command('ai', async (ctx) => {
+  bot.command('', async (ctx) => {
     const prompt = ctx.message.text.split(' ').slice(1).join(' '); 
 
     if (!prompt) {
-      return ctx.reply('Veuillez poser une question après la commande, comme : /ai Quelle est la capitale de la France ?');
+      return ctx.reply('Veuillez poser une question après la commande, comme : / Quelle est la capitale de la France ?');
     }
 
     try {
