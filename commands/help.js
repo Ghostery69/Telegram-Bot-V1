@@ -15,9 +15,10 @@ module.exports = (bot) => {
 
         let message = '📜 **Liste des commandes disponibles :**\n\n';
         commands.forEach(cmd => {
-            message += `╭─❍\n│ ✧${cmd.command} \n│- ${cmd.description}\n╰─━━━━━━━━━━━━━╾─◊\n`;
+            message += `╭─❍𝘀𝗽𝗶𝗿𝗶𝘁𝘆🪄\n│ ✧${cmd.command} \n│- ${cmd.description}\n╰─━━━━━━━━━━━━━╾─🤖\n`;
         });
 
         ctx.replyWithMarkdown(message);
     });
 };
+
