@@ -8,7 +8,7 @@ module.exports = (bot) => {
     const reply = ctx.message.reply_to_message;
 
     if (!reply || !reply.photo) {
-      return ctx.reply('❌ Veuillez répondre à un message contenant une image.');
+      return ctx.reply('❌ 𝘃𝗲𝘂𝗶𝗹𝗹𝗲𝘇 𝗿𝗲𝗽𝗼𝗻𝗱𝗿𝗲 𝗮 𝘂𝗻 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝗰𝗼𝗻𝘁𝗲𝗻𝗮𝗻𝘁 𝘂𝗻𝗲 𝗶𝗺𝗮𝗴𝗲.');
     }
 
     try {
