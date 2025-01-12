@@ -32,10 +32,10 @@ module.exports = (bot) => {
 
       const imageLink = imgbbResponse.data.data.url;
 
-      return ctx.reply(`✅ Image téléchargée avec succès : ${imageLink}`);
+      return ctx.reply(`𝗜𝗺𝗮𝗴𝗲 𝘁𝗲𝗹𝗲𝗰𝗵𝗮𝗿𝗴𝗲𝗿 𝗮𝘃𝗲𝗰 𝘀𝘂𝗰𝗰𝗲𝘀 : ${imageLink}`);
     } catch (error) {
       console.error(error);
-      return ctx.reply('❌ Échec du téléchargement de l\'image sur Imgbb. Veuillez réessayer plus tard.');
+      return ctx.reply('❌ 𝗘𝗰𝗵𝗲𝗰 𝘃𝗲𝘂𝗶𝗹𝗹𝗲𝘇 𝗿𝗲𝗲𝘀𝗮𝘆𝗲𝗿 𝗽𝗹𝘂𝘀 𝘁𝗮𝗿𝗱.');
     }
   });
 };
